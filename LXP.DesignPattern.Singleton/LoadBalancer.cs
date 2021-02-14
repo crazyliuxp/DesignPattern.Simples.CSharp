@@ -10,7 +10,7 @@ namespace LXP.DesignPattern.Singleton
     public class LoadBalancer
     {
         //私有静态成员变量，保存唯一实例
-        private static LoadBalancer loadBalancer = null;
+        private static LoadBalancer instance = null;
         //服务器集合
         private List<string> serverList = null;
 
@@ -28,9 +28,9 @@ namespace LXP.DesignPattern.Singleton
         /// <returns></returns>
         public static LoadBalancer GetLoadBalancer()
         {
-            if (loadBalancer == null)
-                loadBalancer = new LoadBalancer();
-            return loadBalancer;
+            if (instance == null)
+                instance = new LoadBalancer();
+            return instance;
         }
 
         //增加服务器

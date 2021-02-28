@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LXP.DesignPattern.FactoryMe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LXP.DesignPattern.AbstractFactory", "LXP.DesignPattern.AbstractFactory\LXP.DesignPattern.AbstractFactory.csproj", "{28C968BD-ADEE-492E-B4B7-D3C93C5BBFBF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BC1BA7F2-9033-4EF3-A18D-D5BCB349B76C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{4DB4561D-E7FB-4D95-AA0B-69BA93384B03} = {BC1BA7F2-9033-4EF3-A18D-D5BCB349B76C}
 		{A8C4A509-2BC1-4FB1-9C57-A248EDCF1475} = {4DB4561D-E7FB-4D95-AA0B-69BA93384B03}
 		{B7ADC2EA-49F1-4AB5-9388-6121EF4A60DE} = {4DB4561D-E7FB-4D95-AA0B-69BA93384B03}
 		{DC565BA1-59A8-410A-9804-8A21A84ED448} = {4DB4561D-E7FB-4D95-AA0B-69BA93384B03}

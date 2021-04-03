@@ -14,7 +14,7 @@ namespace LXP.DesignPattern.Adapter
             Console.WriteLine("成绩排序结果：");
             result = operation.Sort(scores);
 
-            //遍历输出成绩
+            //遍历输出成绩 
             foreach (var i in result)
             {
                 Console.Write(i + ",");
